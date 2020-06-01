@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--Executing the uiTest cases in parallel with max thread count of 3-->
+<suite name="LiveIntent Test Suite" parallel="tests" thread-count="3">
+    <test name="LiveIntent tests" parallel="methods">
+        <classes>
+            <class name="com.liveIntent.RoutingServiceTest"/>
+        </classes>
+    </test>
+</suite>
