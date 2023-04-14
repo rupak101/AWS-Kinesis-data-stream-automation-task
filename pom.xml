@@ -10,7 +10,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <testng.version>6.14.2</testng.version>
         <log4j.version>1.2.17</log4j.version>
-        <json-version>20160212</json-version>
+        <json-version>20230227</json-version>
         <lombok.version>1.18.2</lombok.version>
         <allure-maven.version>2.10.0</allure-maven.version>
         <allure-testng.version>2.10.0</allure-testng.version>
